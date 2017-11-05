@@ -1,0 +1,4 @@
+recursive-include ajnwordcloud/font *.ttf
+recursive-include ajnwordcloud/font *.otf
+recursive-include ajnwordcloud/font *.txt
+recursive-include ajnwordcloud/mask_image *.png
