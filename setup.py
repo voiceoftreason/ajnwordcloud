@@ -12,4 +12,6 @@ setup(name='ajnwordcloud',
       install_requires=['numpy>=1.6.1', 'pillow'],
       ext_modules=[Extension("ajnwordcloud.ii_search",
                            ["ajnwordcloud/ii_search.c"],include_dirs=['.'])],
-       zip_safe=False)
+      package_data={'ajnwordcloud': ['mask_image/*.png', 'font/*.ttf', 'font/*.otf', 'font/*.txt']},
+      include_package_data=True,
+      zip_safe=False)
