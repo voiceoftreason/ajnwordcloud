@@ -11,7 +11,7 @@ The following can be configured when creating a cloud:
 
 ## Installation
 
-You can install from the Python package index:
+You can install from the Python package index (tested on PC and Mac, Python 2.7 and 3.6):
 
 `pip install ajnwordcloud`
 
