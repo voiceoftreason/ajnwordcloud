@@ -49,8 +49,8 @@ im = wordcloud(aliens)
 
 ```python
 im = wordcloud(aliens, 
-				cloudsize=(640, 480), 
-				mask=mask_ellipse)
+		cloudsize=(640, 480), 
+		mask=mask_ellipse)
 ```
 
 ![size and shape](https://github.com/voiceoftreason/ajnwordcloud/blob/master/examples/output_2_0.png)
@@ -59,9 +59,9 @@ im = wordcloud(aliens,
 
 ```python
 im = wordcloud(aliens, 
-				cloudsize=(640, 480), 
-				colours=red, 
-				mask=mask_ellipse)
+		cloudsize=(640, 480), 
+		colours=red, 
+		mask=mask_ellipse)
 ```
 
 ![colour](https://github.com/voiceoftreason/ajnwordcloud/blob/master/examples/output_3_0.png)
@@ -70,10 +70,10 @@ im = wordcloud(aliens,
 
 ```python
 im = wordcloud(aliens, 
-				fontname=font_chunkfive, 
-				colours=blue+orange
-				cloudsize=(640, 480), 
-				mask=mask_cloud)
+		fontname=font_chunkfive, 
+		colours=blue+orange
+		cloudsize=(640, 480), 
+		mask=mask_cloud)
 ```
 
 ![colour scheme](https://github.com/voiceoftreason/ajnwordcloud/blob/master/examples/output_4_0.png)
@@ -82,13 +82,13 @@ im = wordcloud(aliens,
 
 ```python
 im = wordcloud(aliens, 
-				fontname=font_mouse_memoirs, 
-				cloudsize=(640, 480), 
-				scale=18, 
-				colours=white, 
-				background='black', 
-				mask=mask_roundrect, 
-				rotated=0)
+		fontname=font_mouse_memoirs, 
+		cloudsize=(640, 480), 
+		scale=18, 
+		colours=white, 
+		background='black', 
+		mask=mask_roundrect, 
+		rotated=0)
 ```
 
 ![rotation](https://github.com/voiceoftreason/ajnwordcloud/blob/master/examples/output_5_0.png)
