@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 from setuptools.extension import Extension
 
 setup(name='ajnwordcloud',
-      version='0.2.2',
+      version='0.2.3',
       description='simple wordcloud generator',
       url='http://github.com/voiceoftreason/ajnwordcloud',
       author='Andy Newton',
